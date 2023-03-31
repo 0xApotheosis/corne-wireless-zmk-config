@@ -10,7 +10,7 @@
 
 / {
     behaviors {
-        AS: AS {
+        as: as {
             compatible = "zmk,behavior-hold-tap";
             label = "AS";
             bindings =
@@ -36,10 +36,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-  &kp TAB  &AS Q LEFT_SHIFT  &kp W     &kp F  &kp P          &kp B        &kp J  &kp L      &kp U    &kp Y  &kp SEMICOLON     &kp ESCAPE
-&kp LCTRL             &kp A  &kp R     &kp S  &kp T          &kp G        &kp M  &kp E      &kp E    &kp I          &kp O        &kp SQT
-&kp LSHFT             &kp Z  &kp X     &kp C  &kp D          &kp V        &kp K  &kp H  &kp COMMA  &kp DOT       &kp FSLH  &kp RIGHT_ALT
-                                    &kp LGUI  &mo 1  &kp BACKSPACE    &kp SPACE  &mo 2  &kp ENTER
+  &kp TAB  &as Q LS(Q)  &as W LS(W)  &as F LS(F)  &as P LS(P)    &as B LS(B)    &as J LS(J)  &as L LS(L)          &as U LS(U)         &as Y LS(Y)  &as SEMICOLON LS(SEMICOLON)                &kp ESCAPE
+&kp LCTRL  &as A LS(A)  &as R LS(R)  &as S LS(S)  &as T LS(T)    &as G LS(G)    &as M LS(M)  &as N LS(N)          &as E LS(E)         &as I LS(I)                  &as O LS(O)  &as SQT LS(SINGLE_QUOTE)
+&kp LSHFT  &as Z LS(Z)  &as X LS(X)  &as C LS(C)  &as D LS(D)    &as V LS(V)    &as K LS(K)  &as H LS(H)  &as COMMA LS(COMMA)  &as DOT LS(PERIOD)           &as FSLH LS(SLASH)             &kp RIGHT_ALT
+                                        &kp LGUI        &mo 1  &kp BACKSPACE      &kp SPACE        &mo 2            &kp ENTER
             >;
         };
 
