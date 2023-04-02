@@ -36,9 +36,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-  &kp TAB  &as LS(Q) LS(Q)  &as LS(W) W  &as LS(F) F  &as LS(P) P    &as LS(B) B    &as LS(J) J  &as LS(L) L          &as LS(U) U         &as LS(Y) Y  &as SEMICOLOLS(N) SMICOLON)                &kp ESCAPE
-&kp LCTRL      &as LS(A) A  &as LS(R) R  &as LS(S) S  &as LS(T) T    &as LS(G) G    &as LS(M) M  &as LS(N) N          &as LS(E) E         &as LS(I) I                  &as LS(O) O  &as SQLS(T) SNGLE_QUOTE)
-&kp LSHFT      &as LS(Z) Z  &as LS(X) X  &as LS(C) C  &as LS(D) D    &as LS(V) V    &as LS(K) K  &as LS(H) H  &as COMMA LS(COMMA)  &as DOT LS(PERIOD)           &as FSLH LS(SLASH)             &kp RIGHT_ALT
+  &kp TAB  &as LS(Q) LS(Q)  &as W LS(W)  &as F LS(F)  &as P LS(P)    &as B LS(B)    &as J LS(J)  &as L LS(L)          &as U LS(U)         &as Y LS(Y)  &as SEMICOLON LS(SEMICOLON)                &kp ESCAPE
+&kp LCTRL      &as A LS(A)  &as R LS(R)  &as S LS(S)  &as T LS(T)    &as G LS(G)    &as M LS(M)  &as N LS(N)          &as E LS(E)         &as I LS(I)                  &as O LS(O)  &as SQT LS(SINGLE_QUOTE)
+&kp LSHFT      &as Z LS(Z)  &as X LS(X)  &as C LS(C)  &as D LS(D)    &as V LS(V)    &as K LS(K)  &as H LS(H)  &as COMMA LS(COMMA)  &as DOT LS(PERIOD)           &as FSLH LS(SLASH)             &kp RIGHT_ALT
                                             &kp LGUI        &mo 1  &kp BACKSPACE      &kp SPACE        &sk 0            &kp ENTER
             >;
         };
