@@ -52,8 +52,8 @@
 
             bindings = <
   &kp C_VOLUME_UP         &kp F1         &kp F2          &kp F3         &kp F4         &kp F5                 &kp F6               &kp F7               &kp F8                             &kp F9                              &kp F10                   &bt BT_CLR
-&kp C_VOLUME_DOWN  &as N1 LS(N1)  &as N2 LS(N2)   &as N3 LS(N3)  &as N4 LS(N4)  &as N5 LS(N5)    &as MINUS LS(MINUS)  &as EQUAL LS(EQUAL)  &as GRAVE LS(GRAVE)  &as LEFT_BRACKET LS(LEFT_BRACKET)  &as RIGHT_BRACKET LS(RIGHT_BRACKET)  &as BACKSLASH LS(BACKSLASH)
-       &kp K_MUTE  &as N6 LS(N6)  &as N7 LS(N7)   &as N8 LS(N8)  &as N9 LS(N9)  &as N0 LS(N0)             &bt BT_PRV             &kp LEFT             &kp DOWN                             &kp UP                            &kp RIGHT                   &bt BT_NXT
+&kp C_VOLUME_DOWN  &as LS(N1) N1  &as LS(N2) N2   &as LS(N3) N3  &as LS(N4) N4  &as LS(N5) N5    &as MINUS LS(MINUS)  &as EQUAL LS(EQUAL)  &as GRAVE LS(GRAVE)  &as LEFT_BRACKET LS(LEFT_BRACKET)  &as RIGHT_BRACKET LS(RIGHT_BRACKET)  &as BACKSLASH LS(BACKSLASH)
+       &kp K_MUTE  &as LS(N6) N6  &as LS(N7) N7   &as LS(N8) N8  &as LS(N9) N9  &as LS(N0) N0             &bt BT_PRV             &kp LEFT             &kp DOWN                             &kp UP                            &kp RIGHT                   &bt BT_NXT
                                                  &kp C_PREVIOUS         &trans         &trans                 &trans               &trans           &kp C_NEXT
             >;
         };
